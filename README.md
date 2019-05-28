@@ -1,5 +1,5 @@
 # Eat-and-Go
->###This project is written in Java.
+>### This project is written in Java.
 >### 創作背景
 >
 >此主題希望可以讓使用者走到哪裡都可以知道當地的餐廳資訊，因此決定先以學校附近的早餐店、早午餐、餐廳等為範圍。
