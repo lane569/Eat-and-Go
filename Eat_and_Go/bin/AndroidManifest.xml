@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="seb.niu.project.eatandgo"
+    android:versionCode="1"
+    android:versionName="5.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="seb.niu.project.eatandgo.MainActivityIndex"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity><activity android:name="seb.niu.project.eatandgo.MainActivityHistory">
+        </activity>
+        <activity android:name="seb.niu.project.eatandgo.MainActivityOrder" >
+        </activity><activity android:name="seb.niu.project.eatandgo.MainActivityOrder_Check"></activity><activity android:name="seb.niu.project.eatandgo.MainActivityOrder_A"></activity><activity android:name="seb.niu.project.eatandgo.MainActivityOrder_A_Check"></activity>
+        <activity android:name="seb.niu.project.eatandgo.MainActivityOrder_B"></activity><activity android:name="seb.niu.project.eatandgo.MainActivityOrder_B_Check"></activity><activity android:name="seb.niu.project.eatandgo.MainActivityOrder_C"></activity><activity android:name="seb.niu.project.eatandgo.MainActivityOrder_C_Check"></activity>
+        <activity android:name="seb.niu.project.eatandgo.MainActivityRestaurant" >
+        </activity>
+        
+        <activity android:name="seb.niu.project.eatandgo.MainActivityOrderFinish"></activity>
+        <activity android:name="seb.niu.project.eatandgo.MainActivityHistory_one"></activity>
+        <activity android:name="seb.niu.project.eatandgo.MainActivityHistory_two"></activity>
+        <activity android:name="seb.niu.project.eatandgo.MainActivityHistory_three"></activity>
+        <activity android:name="seb.niu.project.eatandgo.MainActivityHistory_four"></activity>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </application>
+
+</manifest>

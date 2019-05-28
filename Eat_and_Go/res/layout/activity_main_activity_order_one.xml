@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eatandgo.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="260宜蘭縣宜蘭市女中路三段225號"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText7"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editText7"
+        android:layout_x="254dp"
+        android:layout_y="305dp"
+        android:text="取消" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="上一頁" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="下一頁" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button1"
+        android:text="加入" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="62dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/spinner3"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignLeft="@+id/button2"
+        android:ems="10"
+        android:hint="數量"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="地圖" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/spinner1"
+        android:layout_toRightOf="@+id/spinner1" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="230dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner2"
+        android:layout_toLeftOf="@+id/textView2"
+        android:ems="10"
+        android:hint="主餐"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="183dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_toLeftOf="@+id/button3"
+        android:ems="10"
+        android:hint="特殊需求"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignTop="@+id/editText3"
+        android:text="取消" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="58dp"
+        android:layout_height="53dp"
+        android:layout_alignBaseline="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_toLeftOf="@+id/editText6"
+        android:layout_toRightOf="@+id/button7"
+        android:ems="10"
+        android:hint="溫度"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="58dp"
+        android:layout_height="53dp"
+        android:layout_alignBaseline="@+id/editText5"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="數量"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="185dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="188dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/spinner3"
+        android:ems="10"
+        android:hint="飲品"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="182dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText4"
+        android:layout_toLeftOf="@+id/button5"
+        android:ems="10"
+        android:hint="特殊需求"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="59dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/editText5"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_toLeftOf="@+id/spinner5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_marginRight="20dp"
+        android:text="老蔡碳烤三明治"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_toRightOf="@+id/editText1"
+        android:ems="10"
+        android:hint="價錢"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignTop="@+id/editText5"
+        android:ems="10"
+        android:hint="價錢"
+        android:inputType="number" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="關閉"
+        android:visibility="visible" />
+
+</RelativeLayout>
