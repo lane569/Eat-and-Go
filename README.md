@@ -10,4 +10,4 @@
 >### 可行性
 >在設計上，需要考慮排版、多媒體的顯示、點擊確認、訂單查詢及總價錢計算。
 >### 介面設計
->![](https://i.imgur.com/oY3vcWZ.jpg =300x500)
+>![](https://i.imgur.com/oY3vcWZ.jpg)
